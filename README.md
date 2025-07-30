@@ -4,7 +4,7 @@
 
 ## **Module (.omod) Location**
 ```
-./encounterpush/omod/target/encounterpush-1.0.0.omod
+./omod/target/encounterpush-1.0.0.omod
 ```
 
 ## **Required Modules on OpenMRS**
@@ -36,14 +36,13 @@ mvn clean install
 
 Relevant Folder Structure
 ```
-|--patientpush
-|  |--api
-|    |--main/java/org/openmrs/module/encounterpush
-|      |--EncounterPusher.java
-|      |--EncounterPusherActivator.java
-|  |--omod
-|     |--target
-|        |--encounterpush-1.0.0.omod
-|  |--pom.xml
+|--api
+|  |--main/java/org/openmrs/module/encounterpush
+|    |--EncounterPusher.java
+|    |--EncounterPusherActivator.java
+|--omod
+|   |--target
+|      |--encounterpush-1.0.0.omod
+|--pom.xml
 |--README.md
 ```
